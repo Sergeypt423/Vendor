@@ -1,0 +1,46 @@
+{
+  "name": "Vendor",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@expo/react-native-read-more-text": "^1.1.0",
+    "fetchival": "^0.3.2",
+    "native-base": "^2.3.1",
+    "react": "16.0.0-alpha.12",
+    "react-native": "^0.47.1",
+    "react-native-android-back-button": "^0.3.0",
+    "react-native-calendar-datepicker": "^1.2.2",
+    "react-native-calendars": "^1.5.6",
+    "react-native-deprecated-custom-components": "^0.1.1",
+    "react-native-dimension": "^1.0.6",
+    "react-native-full-screen": "0.0.2",
+    "react-native-hr": "^1.1.3",
+    "react-native-rating": "^2.0.1",
+    "react-native-search-header": "^0.1.9",
+    "react-native-searchbar": "^1.11.0",
+    "react-native-simple-stepper": "^1.16.0",
+    "react-native-switch-pro": "^0.4.5",
+    "react-native-vector-icons": "^4.1.1",
+    "react-redux": "^5.0.5",
+    "react-stars": "^2.1.0",
+    "redux": "^3.7.2",
+    "redux-persist": "^4.8.3",
+    "redux-persist-transform-filter": "0.0.15",
+    "redux-thunk": "^2.2.0",
+    "validator": "^8.0.0"
+  },
+  "devDependencies": {
+    "babel-jest": "20.0.3",
+    "babel-preset-react-native": "2.1.0",
+    "jest": "20.0.4",
+    "react-test-renderer": "16.0.0-alpha.12",
+    "remote-redux-devtools": "^0.5.12"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
